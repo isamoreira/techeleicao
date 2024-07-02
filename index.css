@@ -74,12 +74,12 @@ header {
 }
 
 .content h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
 .content h2 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .content .btn {
@@ -133,6 +133,57 @@ h2 {
     margin-bottom: 50px;
 }
 
+
+/* Debates Section Styles */
+#sobre {
+    background:  url('bg.png') repeat center center/cover;;
+    color: black;
+    text-align: left;
+    padding: 100px 10%;
+}
+
+#sobre .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #20E5F6;
+}
+
+#sobre p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Responsiveness for Tablets and Mobile */
+@media screen and (max-width: 1024px) {
+    #sobre p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sobre p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #sobre h2 {
+        font-size: 2em;
+    }
+    #sobre p {
+        font-size: 0.8em;
+    }
+}
+
+
 .mesas {
     display: flex;
     justify-content: space-around;
@@ -152,7 +203,7 @@ h2 {
 
 .mesa h3 {
     color: #20E5F6;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -235,7 +286,7 @@ h2 {
 
 #organizacao h2 {
     margin-top: - 20px;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 50px;
 }
 
